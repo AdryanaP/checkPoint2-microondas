@@ -31,8 +31,6 @@ function microondas(prato, tempoPreparo) {
     return "Comida queimada :/";
   } else if (tempoPreparo < tempoPadrao) {
     return "Tempo insuficiente";
-  } else if (tempoPreparo > tempoPadrao) {
-    return "Tempo não recomendado";
   } else if (tempoPadrao === undefined) {
     return "Prato inexistente";
   } else {
